@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap For Beginners</title>
+	<meta name="description" content="Hello World">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	
+
+</head>
+
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Hello World</h1>
+				<h3>Tabs in Bootstrap</h3>
+			</div> 
+		</div> 
+	</header>
+
+	<!-- an example of tab tabs -->
+	<div class="container">
+		<ul class="nav nav-tabs">
+			<!-- using the "tab" data toggling makes whatever you click on the active tab -->
+			<li class="active"><a href="#Home" data-toggle="tab">Home</a></li>
+			<li><a href="#About" data-toggle="tab">About</a></li>
+			<li><a href="#Videos" data-toggle="tab">Videos</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div class="tab-pane fade in active" id="Home">
+				<p>First paragraph: Hi There!</p>
+			</div>
+			<div class="tab-pane fade" id="About">
+				<p>Second paragraph: Hi There!</p>
+			</div>
+			<div class="tab-pane fade" id="Videos">
+				<p>Third paragraph: Hi There!</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- an example of pill tabs -->
+	<div class="container">
+		<ul class="nav nav-pills  nav-justified">
+			<!-- using the "tab" data toggling makes whatever you click on the active tab -->
+			<li class="active"><a href="#Bio" data-toggle="tab">Bio</a></li>
+			<li><a href="#Movies" data-toggle="tab">Movies</a></li>
+			<li><a href="#Content" data-toggle="tab">Content</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<div class="tab-pane fade in active" id="Bio">
+				<p>First paragraph: Hi There!</p>
+			</div>
+			<div class="tab-pane fade" id="Movies">
+				<p>Second paragraph: Hi There!</p>
+			</div>
+			<div class="tab-pane fade" id="Content">
+				<p>Third paragraph: Hi There!</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- an example of stacked -->
+	<div class="container">
+		<ul class="nav nav-stacked">
+			<!-- using the "tab" data toggling makes whatever you click on the active tab -->
+			<li class="active"><a href="#YouTube" data-toggle="tab">YouTube</a></li>
+			<li><a href="#LinkedIn" data-toggle="tab">LinkedIn</a></li>
+			<li><a href="#GitHub" data-toggle="tab">GitHub</a></li>
+		</ul>
+
+		<div class="tab-GitHub">
+			<div class="tab-pane fade in active" id="YouTube">
+				<p>First paragraph: Hi There!</p>
+			</div>
+			<div class="tab-pane fade" id="LinkedIn">
+				<p>Second paragraph: Hi There!</p>
+			</div>
+			<div class="tab-pane fade" id="GitHub">
+				<p>Third paragraph: Hi There!</p>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<hr>
+
+			<p>
+				<small><a href="http://facebook.com/askorama">Like me</a> On facebook</small></p>
+			<p>	<small><a href="http://twitter.com/wiredwiki">Ask whatever </a> On Twitter</small></p>
+			<p>	<small><a href="http://youtube.com/wiredwiki">Subscribe me</a> On Youtube</small>
+				
+			</p>
+		</div> <!-- end container -->
+	</footer>
+		
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>	
+</html>

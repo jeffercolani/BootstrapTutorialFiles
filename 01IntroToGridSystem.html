@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap For Beginners</title>
+	<meta name="description" content="Hello World">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	
+	<style>
+	/* styling everything that has the class of "grey" */
+		.grey {
+			background-color: #ccc;
+			padding: 20px;
+		}
+
+		.first {
+			background-color: #ccc;
+		}
+
+		.others {
+			background-color: #000;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Hello World</h1>
+				<h3>Controlling Grid System</h3>
+			</div> 
+		</div>
+	</header>
+	<div class="grey">
+		<div class="container">
+			<div class="well">This is my first container</div>
+		</div>
+	</div>
+	
+	<hr>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h3>Rows Grid System</h3>
+			</div> 
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+			<div class="well">This is the first row</div>
+		</div>
+		<div class="row">
+			<div class="well">This is the second row</div>
+		</div>
+		<div class="row">
+			<div class="well">This is the third row</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h3>Columns Grid System</h3>
+				<p>Maximum of 12 columns</p>
+			</div> 
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="well">First Column</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="well">Second Column</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="well">Second Column</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="well">Second Column</div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h3>Control the grids to make them more responsive</h3>
+			</div> 
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<!-- resize the screen and if it's too small, the structure will become 2x2 -->
+			<div class="col-xs-6 col-md-3">
+				<div class="well">First Column hello there I'm writing a bunch of text in this column isn't it awesome?</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<div class="well">Second Column</div>
+			</div>
+			<!-- prevent the grid from having weird gaps -->
+			<div class="clearfix hidden-md hidden-lg"></div>
+			<div class="col-xs-6 col-md-3">
+				<div class="well">First Column</div>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<div class="well">Second Column</div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h3>Controlling Column Offset</h3>
+			</div> 
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4">
+				<div class="well">First Column</div>
+			</div>
+			<div class="col-xs-4 col-xs-offset-4">
+				<div class="well">First Column</div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h3>Nested Columns</h3>
+			</div> 
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 first">First Column
+				<div class="row">
+					<div class="col-md-6">
+						<div class="well">First Nested Column</div>
+					</div>
+					<div class="col-md-6">
+						<div class="well">Second Nested Column</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 others">Second Column</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h3>Column Ordering</h3>
+			</div> 
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<!-- push the column to the right a value of 6 -->
+			<div class="col-sm-6 col-sm-push-6">
+				<div class="well">First Column</div>
+			</div>
+			<div class="col-sm-6 col-sm-pull-6">
+				<div class="well">Second Column</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<hr>
+
+			<p>
+				<small><a href="http://facebook.com/askorama">Like me</a> On facebook</small></p>
+			<p>	<small><a href="http://twitter.com/wiredwiki">Ask whatever </a> On Twitter</small></p>
+			<p>	<small><a href="http://youtube.com/wiredwiki">Subscribe me</a> On Youtube</small>
+				
+			</p>
+		</div> <!-- end container -->
+	</footer>
+		
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>	
+</html>

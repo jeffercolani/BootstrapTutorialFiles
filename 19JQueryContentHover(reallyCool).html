@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap For Beginners</title>
+	<meta name="description" content="Hello World">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="bootstrap-3.3.5-dist/css/style.css">
+	
+
+</head>
+
+<!-- This intructional file was created by following the tutorial found here: https://youtu.be/_dxB37OR0jc?list=PL7029EEFC21D2DC58 -->
+
+<body>
+
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Hello World</h1>
+				<h3>JQuery Content Hover</h3>
+			</div> 
+		</div> 
+	</header>
+
+	<!-- download the plugin for the Jquery Content Hoevr at http://www.backslash.gr/demos/contenthover-jquery-plugin/ -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img id="d1" src="img/slide1.jpg">
+				<div class="contenthover">
+    			<h3>Lorem ipsum dolor</h3>
+    			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum pulvinar ante quis augue lobortis volutpat. </p>
+    			<p><a href="#" class="mybutton">Lorem ipsum</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<img id="d2" src="img/slide2.jpg">
+				<div class="contenthover">
+    			<h3>Lorem ipsum dolor</h3>
+    			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum pulvinar ante quis augue lobortis volutpat. </p>
+    			<p><a href="#" class="mybutton">Lorem ipsum</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<img id="d3" src="img/slide3.jpg">
+				<div class="contenthover">
+    			<h3>Lorem ipsum dolor</h3>
+    			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum pulvinar ante quis augue lobortis volutpat. </p>
+    			<p><a href="#" class="mybutton">Lorem ipsum</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<hr>
+
+			<p>
+				<small><a href="http://facebook.com/askorama">Like me</a> On facebook</small></p>
+			<p>	<small><a href="http://twitter.com/wiredwiki">Ask whatever </a> On Twitter</small></p>
+			<p>	<small><a href="http://youtube.com/wiredwiki">Subscribe me</a> On Youtube</small>
+				
+			</p>
+		</div> <!-- end container -->
+	</footer>
+		
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="http://www.backslash.gr/demos/contenthover-jquery-plugin/jquery.contenthover.min.js"></script>
+
+	<!-- page script -->
+	<script type="text/javascript">
+		$('#d1').contenthover({
+	    overlay_background:'#000',
+	    overlay_opacity:0.8
+		});
+
+		$('#d2').contenthover({
+	    effect:'slide',
+	    slide_speed:300,
+	    overlay_background:'#000',
+	    overlay_opacity:0.8
+		});
+
+		$('#d3').contenthover({
+	    overlay_width:270,
+	    overlay_height:180,
+	    effect:'slide',
+	    slide_direction:'right',
+	    overlay_x_position:'right',
+	    overlay_y_position:'center',
+	    overlay_background:'#000',
+	    overlay_opacity:0.8
+		});
+	</script>
+</body>	
+</html>

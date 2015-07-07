@@ -1,0 +1,22 @@
+Download bootstrap
+http://getbootstrap.com/getting-started/
+
+Html5Shiv
+https://code.google.com/p/html5shiv/
+
+Respond.min.js
+https://github.com/scottjehl/respond
+
+
+How to change the Font and theme of Sublime Text
+youtube.com/watch?v=0d_VsrKzhGo
+
+Download Meslo font
+https://github.com/andreberg/Meslo-Font
+
+Download Kuroir Theme
+https://github.com/MarioRicalde/TextMate-Kuroir-Theme
+
+
+
+
